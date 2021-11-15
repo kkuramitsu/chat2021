@@ -257,8 +257,8 @@ def myuranai(input_text):
     # 占います
     number = hash(frame['name']+frame['birthday']) % 10
     if number > 5:
-      return 'あなたの運勢は大吉'
-    return 'あなたの運勢は吉'
+      return 'あなたの運勢は大吉、明日は末吉だよ'
+    return 'あなたの運勢は吉、ラッキーアイテムはお寿司'
 
   return output_text
 
